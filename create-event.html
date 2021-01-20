@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Create-event</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form name="eventForm">
+        <input id="name"
+          class="form-control text-field"
+          type="text"
+          placeholder="Name of the event"
+        />
+        <div class="input-group mb-3">
+          <label class="input-group-text" for="participants"
+            >Participants</label
+          >
+          <select class="form-select" id="participants">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="input-group mb-3">
+          <label class="input-group-text" for="day">Day</label>
+          <select class="form-select" id="day">
+            <option selected>Choose...</option>
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5">Friday</option>
+          </select>
+        </div>
+        <div class="input-group mb-3">
+          <label class="input-group-text" for="time">Time</label>
+          <select class="form-select" id="time">
+            <option selected>Choose...</option>
+            <option value="1">10-00</option>
+            <option value="2">11-00</option>
+            <option value="3">12-00</option>
+            <option value="4">13-00</option>
+            <option value="5">14-00</option>
+            <option value="6">15-00</option>
+            <option value="7">16-00</option>
+            <option value="8">17-00</option>
+            <option value="9">18-00</option>
+          </select>
+        </div>
+        <div class="submit-wrapper">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <a class="btn btn-success" href="create-event.html" role="button"
+            >Cancel</a
+          >
+        </div>
+      </form>
+    </div>
+    <script src="/dist/main.bundle.js"></script>
+  </body>
+</html>

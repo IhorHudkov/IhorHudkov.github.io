@@ -1,0 +1,48 @@
+body {
+  background-color: #f8f9fa !important;
+  padding-top: 4em;
+}
+
+table {
+  background-color: #fff;
+}
+
+.select-names {
+  padding: .4em .1em;
+  border-radius: .25em;
+  margin-right: 1em;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn {
+  margin-bottom: .25em;
+}
+
+.submit-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-container {
+  max-width: 400px;
+  padding: 2em;
+  margin: 0 auto;
+  border: 2px solid #b7bfc7;
+  border-radius: 1em;
+}
+
+.text-field {
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=style.css.map */
