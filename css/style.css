@@ -45,4 +45,9 @@ table {
 .text-field {
   margin-bottom: 1em;
 }
+
+.error-msg {
+  display: none;
+  background-color: red;
+}
 /*# sourceMappingURL=style.css.map */
